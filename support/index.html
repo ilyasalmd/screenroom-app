@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support — Screenroom</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0a0a0a;
+      color: #e8e8e8;
+      line-height: 1.7;
+      padding: 48px 20px 80px;
+    }
+    .container { max-width: 680px; margin: 0 auto; }
+    header { margin-bottom: 48px; }
+    .app-name {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: #ff6b3d;
+      margin-bottom: 12px;
+    }
+    h1 { font-size: 36px; font-weight: 700; letter-spacing: -.02em; margin-bottom: 8px; }
+    .subtitle { font-size: 18px; color: #aaa; margin-top: 8px; }
+    section { margin-top: 40px; }
+    h2 { font-size: 20px; font-weight: 600; margin-bottom: 16px; color: #fff; }
+    .faq-item { margin-bottom: 28px; }
+    .faq-q { font-weight: 600; color: #fff; margin-bottom: 6px; }
+    .faq-a { color: #bbb; }
+    .contact-card {
+      margin-top: 48px;
+      padding: 28px;
+      background: #111;
+      border: 1px solid #222;
+      border-radius: 12px;
+      text-align: center;
+    }
+    .contact-card h2 { margin-bottom: 8px; }
+    .contact-card p { color: #aaa; margin-bottom: 20px; }
+    .email-btn {
+      display: inline-block;
+      padding: 12px 28px;
+      background: #ff6b3d;
+      color: #fff;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    .email-btn:hover { background: #ff8460; }
+    footer {
+      margin-top: 64px;
+      padding-top: 24px;
+      border-top: 1px solid #222;
+      font-size: 13px;
+      color: #555;
+    }
+    a { color: #ff6b3d; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code {
+      background: #1a1a1a;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 13px;
+      color: #e8e8e8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="app-name">Screenroom</div>
+      <h1>Support</h1>
+      <p class="subtitle">Get help with Screenroom for iPhone, iPad, Mac and Apple TV.</p>
+    </header>
+
+    <section>
+      <h2>Frequently asked questions</h2>
+
+      <div class="faq-item">
+        <div class="faq-q">The app is empty when I open it. Where's my content?</div>
+        <div class="faq-a">
+          Screenroom contains no built-in content. Tap <strong>Add Source</strong> on the welcome
+          screen and enter your Xtream Codes login, an M3U playlist URL, or a direct stream
+          address. Your channels, movies, and series will appear once the source has loaded.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">My source added fine but channels won't play.</div>
+        <div class="faq-a">
+          Check that your IPTV subscription is active and that your credentials are correct
+          (Settings → Sources → Edit). Live channels require an active internet connection.
+          If a channel shows a red dot in the guide, it failed on the last attempt — the app
+          will retry automatically.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">How do I add a source on all my devices?</div>
+        <div class="faq-a">
+          Sign into all devices with the same Apple ID. After you add a source on one device,
+          it syncs to your other devices automatically via iCloud. You can also tap the
+          <strong>···</strong> menu on a source card and tap <strong>Share Source</strong> to
+          generate a QR code someone on a different Apple ID can scan.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">The programme guide (EPG) shows no data.</div>
+        <div class="faq-a">
+          EPG data comes from your IPTV source. Some providers disable their guide feed — in
+          that case Screenroom shows a "no guide data" state by design. If your provider
+          supplies a separate XMLTV URL, you can paste it into the TV Guide field when editing
+          your source.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">A download finished but the file won't play offline.</div>
+        <div class="faq-a">
+          Downloads require a stable Wi-Fi connection to complete. If the download was
+          interrupted (app backgrounded, screen locked) it may have saved an incomplete file.
+          Delete it and try again on a reliable connection. Only direct-file sources
+          (MP4, MKV, AVI) support downloads — live streams cannot be downloaded.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">The app says "Authentication failed — your subscription may have expired."</div>
+        <div class="faq-a">
+          Your IPTV provider rejected the login. Check your subscription status with your
+          provider and verify the credentials in Settings → Sources → Edit. If you recently
+          renewed, try refreshing the source manually.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Picture-in-Picture doesn't work.</div>
+        <div class="faq-a">
+          PiP is available for on-demand movies and series on iPhone, iPad, and Mac. It is
+          not available for live streams. Tap the PiP button in the top-left of the player
+          chrome to enter PiP mode.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">How do I delete my data?</div>
+        <div class="faq-a">
+          All data is stored locally on your device. Deleting the app from your device removes
+          everything — source credentials, library cache, downloads, progress, and settings.
+          iCloud Key-Value data (progress sync) is removed from iCloud when you delete the app
+          on all devices that share your Apple ID.
+        </div>
+      </div>
+    </section>
+
+    <div class="contact-card">
+      <h2>Still need help?</h2>
+      <p>Send us a message and we'll get back to you within 48 hours.</p>
+      <a class="email-btn" href="mailto:support@screenroom.app">support@screenroom.app</a>
+    </div>
+
+    <footer>
+      &copy; 2026 Screenroom &nbsp;·&nbsp;
+      <a href="privacy.html">Privacy Policy</a>
+    </footer>
+  </div>
+</body>
+</html>
