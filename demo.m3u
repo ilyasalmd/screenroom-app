@@ -1,0 +1,16 @@
+#EXTM3U
+# Screenroom demo playlist — free, legal, always-on test streams for App Review.
+#EXTINF:-1 tvg-id="redbull" tvg-name="Red Bull TV" group-title="Live TV",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-id="tagesschau" tvg-name="Tagesschau" group-title="Live TV",Tagesschau 24
+https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8
+#EXTINF:-1 tvg-id="demolive" tvg-name="Demo Live" group-title="Live TV",Demo Live Channel
+https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8
+#EXTINF:-1 tvg-name="Big Buck Bunny" group-title="Movies",Big Buck Bunny
+https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8
+#EXTINF:-1 tvg-name="Tears of Steel" group-title="Movies",Tears of Steel
+https://test-streams.mux.dev/test_001/stream.m3u8
+#EXTINF:-1 tvg-name="Tears of Steel HD" group-title="Movies",Tears of Steel (HD)
+https://demo.unified-streaming.com/k8s/features/stable/video/tears-of-steel/tears-of-steel.ism/.m3u8
+#EXTINF:-1 tvg-name="Apple Test Stream" group-title="Movies",Apple Test Stream
+https://devstreaming-cdn.apple.com/videos/streaming/examples/img_bipbop_adv_example_fmp4/master.m3u8
